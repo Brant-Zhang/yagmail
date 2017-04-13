@@ -50,7 +50,7 @@ class SMTP():
     """ yagmail.SMTP is a magic wrapper around smtplib's SMTP connection;
         allows messages to be send """
 
-    def __init__(self, user=None, password=None, host='smtp.gmail.com', port='587',
+    def __init__(self, user=None, password=None, host='smtp.126.com', port='25',
                  smtp_starttls=True, smtp_set_debuglevel=0, smtp_skip_login=False,
                  encoding="utf-8", **kwargs):
         self.log = get_logger()
